@@ -1,0 +1,38 @@
+- Cài create-react-app
+npm install create-react-app -g
+
+- Tạo project 
+create-react-app bc03reactjs
+
+- Khởi chạy project
+npm start
+
+============== Buổi 1 ===============
+* Component:
+    - Stateful: class
+    - Stateless: function
+* SPA ( 1 trang )
+
+*Baitap3 
+   - Header 
+   - Carousel
+   - ListProduct
+      - ItemProduct
+      - ItemProduct
+      - ItemProduct
+      - ItemProduct
+   - Promotion
+
+============== Buổi 2 ===============
+* Rendering Elements: {}
+* Handling Events: onClick
+* State: Nếu state thay đổi thì Component render lại
+* List keys: sử dụng vòng lặp map()
+
+============== Buoi 3 ==============
+* Props: Truyền dữ liệu từ Component Cha => Component Con
+   + class: mặc định có this.props
+   + function: phải có tham số props trên function
+   + children
+* Lifting State Up: Truyền dữ liệu từ Component Con => Component Cha
+* Shopping cart
